@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+< lang="en">
     <head>
        <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Journey of a song</title>
+       <title>Journey of a song &amp; Recommendation systems</title>
        <link rel="stylesheet" href="assets/css/style.css">
     </head>
-    <body>
+    <li>
         <header>
-          <h1>Journey of a song</h1>
+          <h1>Journey of a song &amp; Recommendation systems</h1>
           <p class="tagline">""</p>
           <nav>
             <a href="index.html">Home</a> |
@@ -16,16 +16,35 @@
             <a href="platforms.html">Platforms</a> | 
             <a href="money.html">Money</a> | 
             <a href="glossary.html">Glossary</a> 
-            <a href="references.html">References</a> 
+            <a href="references.html">References</a>
+          </nav>
         </header>
 
         <main>
-          
+            <section>
+                <h2>Workflow</h2>
+                <li>
+                <li><p><strong>Recording and Mastering:</strong> Artists and producers record the track and complete mastering so the final audio file meets technical and sonic standards before a digital release.</p></li>
+                <li><p><strong>Digital Distribution, Metadata, ISRC, and Rights:</strong> Drawing on music-release practices, the mastered file is delivered through a digital distributor that packages essential metadata—such as track and release titles, artist names, songwriters, and production credits—assigns an ISRC (International Standard Recording Code) to track recordings, and organizes rights and release details so the track can be legally distributed and monetized.</p></li>
+                <li><p><strong>Ingestion and Encoding:</strong> Once received by the streaming platform, ingestion validates the audio files and metadata, checks rights and catalog records, and encodes the track into multiple codecs and bitrates to adapt to different devices and network conditions.</p></li>
+                <li><p><strong>CDN Distribution:</strong> Content delivery networks (CDNs) replicate and route the encoded audio files across distributed edge servers closer to listeners, reducing latency and keeping playback reliable</p></li>
+                <li><p><strong>Buffering, Caching, and Playback:</strong> When a user presses play, the streaming app buffers incoming data for smooth start-up and continuous playback, caches tracks locally—supporting offline listening and faster repeat access—and decodes the audio stream into sound on the user's device.</p></li>
+                </ol>
+                <figure>
+                    <img src="assets/img/song-workflow-diagram.jpg" alt="Diagram of the song streaming workflow from recording and mastering through distribution, encoding, CDN, and playback">
+                    <figcaption>Diagram and overview of the song delivery workflow, from studio mastering and ISRC metadata to CDN distribution, buffering, caching, and playback.</figcaption>
+                </figure>
+            </section>
 
-
-
-
-
+            <section>
+                <h2>Recommendation Systems</h2>
+                <p>
+                    Recommendation systems personalize playlists and mixes by combining user listening behavior with track metadata and audio analysis. Collaborative filtering leverages patterns across listeners with overlapping habits to suggest tracks enjoyed by similar users, while content-based approaches examine numerical audio features and sonic attributes extracted from recordings.
+                </p>
+                <p>
+                    By scaling audio features, grouping similar tracks through clustering methods such as KMeans, building a mean vector from preferred songs, and ranking candidates using cosine distance, platforms can generate tailored mixes and help listeners explore deeper into an artist's catalog.
+                </p>
+            </section>
 
           + insert diagram and description
         </main>
