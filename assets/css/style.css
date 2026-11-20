@@ -186,6 +186,10 @@ figcaption {
   text-align: center;
 }
 
+.small{
+  width: 400px;
+  height: 250px;
+}
 /* Tablas con scroll interno en pantallas pequeñas */
 .table-scroll {
   width: 100%;
