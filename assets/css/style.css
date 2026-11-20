@@ -222,7 +222,6 @@ tr:nth-child(even) {
   background-color: #fdf6f9;
 }
 
-
 footer {
   background-color: #000000;
   color: #ffffff;
@@ -234,6 +233,25 @@ footer {
 footer p {
   text-align: center;
   margin: 0;
+}
+
+.listpl {
+  list-style: none; 
+  padding-left: 0;
+}
+
+.listpl li {
+  display: flex;
+  align-items: flex-start; 
+  gap: 10px;               
+  margin-bottom: 12px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;         
+  margin-top: 2px;
 }
 
 @media (max-width: 600px) {
