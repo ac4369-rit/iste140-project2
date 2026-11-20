@@ -25,7 +25,7 @@ header h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 2.1rem;
   font-weight: bold;
-  color: #3a1222;
+  color: #2c0e1a;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12);
 }
 
@@ -34,7 +34,7 @@ header h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-style: italic;
   font-size: 0.98rem;
-  color: #6b2d45;
+  color: #3b1725;
   text-align: center;
 }
 
@@ -83,16 +83,16 @@ section {
 h2 {
   margin-top: 0;
   font-family: Georgia, "Times New Roman", serif;
-  color: #7a2344;
+  color: #561a31;
   padding-bottom: 0.25rem;
   text-decoration: underline;
-  text-decoration-color: #b83b6b;
+  text-decoration-color: #561a31;
   text-decoration-thickness: 2px;
 }
 
 h3 {
   font-family: Georgia, "Times New Roman", serif;
-  color: #9e315b;
+  color: #681f3b;
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
 }
@@ -123,7 +123,6 @@ code {
   border-radius: 4px;
 }
 
-/* Botones centrados */
 .btn-group,
 .button-container {
   display: flex;
@@ -204,23 +203,26 @@ table {
 }
 
 th {
-  background-color: #8f244d;
+  background-color: #611230;
   color: #ffffff;
   text-align: left;
   padding: 0.65rem;
 }
 
 td {
+  box-shadow: 0 4px 12px rgba(87, 6, 48, 0.12);
   padding: 0.65rem;
   border-bottom: 1px solid #f0d0dc;
   text-align: left;
+  font-size:0.8em;
+  box-shadow: inset 8px 6px 8px rgba(68, 3, 46, 0.05);
 }
 
 tr:nth-child(even) {
   background-color: #fdf6f9;
 }
 
-/* Copyright negro */
+
 footer {
   background-color: #000000;
   color: #ffffff;
