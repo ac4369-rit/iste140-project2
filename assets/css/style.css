@@ -6,7 +6,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #fdf2f6;
   color: #2b1820;
@@ -180,7 +179,6 @@ button:hover,
   background-color: #a63562;
 }
 
-/* Imagen centrada debajo del texto */
 figure {
   margin: 1.25rem auto;
   text-align: center;
@@ -218,6 +216,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   min-width: 600px;
+  overflow-x:auto;
 }
 
 th {

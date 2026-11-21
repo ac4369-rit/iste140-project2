@@ -3,7 +3,7 @@
     <head>
        <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Journey of a song &amp; Recommendation systems</title>
+       <title>Journey of a song &amp; Recommendation systems | Insights of music production</title>
        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
@@ -24,29 +24,29 @@
             <section>
                 <h2>Workflow</h2>
                 <ol>
-                <li><p><strong>Recording and Mastering:</strong> Artists and producers record the track and complete mastering so the final audio file meets technical and sonic standards before a digital release. <strong>(MusicAPI, 2025)</strong></p></li>
-                <li><p><strong>Digital Distribution, Metadata, ISRC, and Rights:</strong> Drawing on music-release practices, the mastered file is delivered through a digital distributor that packages essential metadata—such as track and release titles, artist names, songwriters, and production credits—assigns an ISRC (International Standard Recording Code) to track recordings, and organizes rights and release details so the track can be legally distributed and monetized.<strong>(Reinhert & Gulish, 2025; MusicAPI, 2025)</strong></p></li>
-                <li><p><strong>Ingestion and Encoding:</strong> Once received by the streaming platform, ingestion validates the audio files and metadata, checks rights and catalog records, and encodes the track into multiple codecs and bitrates to adapt to different devices and network conditions.<strong>(MusicAPI, 2025)</strong></p></li>
-                <li><p><strong>CDN Distribution:</strong> Content delivery networks (CDNs) replicate and route the encoded audio files across distributed edge servers closer to listeners, reducing latency and keeping playback reliable</p><strong>(MusicAPI, 2025)</strong></li>
-                <li><p><strong>Buffering, Caching, and Playback:</strong> When a user presses play, the streaming app buffers incoming data for smooth start-up and continuous playback, caches tracks locally—supporting offline listening and faster repeat access—and decodes the audio stream into sound on the user's device.<strong>(MusicAPI, 2025)</strong></p></li>
+                <li><strong>Recording and Mastering:</strong>Artists and producers record the track and complete mastering so the final audio file meets technical and sonic standards before a digital release. During recording, vocal takes, instrumental layers, and arrangement details are captured in a digital audio workstation (DAW) or studio environment, while mixing balances levels, EQ, compression, and spatial depth across tracks. Mastering then refines the stereo mix—optimizing loudness, tonal consistency, and frequency balance—so the song translates reliably across headphones, car speakers, and smart devices. Preparing clean, high-resolution master files at this stage prevents distortion or volume inconsistencies once platforms transcode the audio for streaming <strong>(MusicAPI, 2025)</strong>.</li>
+                <li><strong>Digital Distribution, Metadata, ISRC, and Rights:</strong> Drawing on music-release practices, the mastered file is delivered through a digital distributor that packages essential metadata—such as track and release titles, artist names, songwriters, and production credits—assigns an ISRC (International Standard Recording Code) to track recordings, and organizes rights and release details so the track can be legally distributed and monetized<strong>(Reinhert & Gulish, 2025; MusicAPI, 2025)</strong>.</li>
+                <li><strong>Ingestion and Encoding:</strong> Once received by the streaming platform, ingestion validates the audio files and metadata, checks rights and catalog records, and encodes the track into multiple codecs and bitrates to adapt to different devices and network conditions<strong>(MusicAPI, 2025)</strong>.</li>
+                <li><strong>CDN Distribution:</strong> Content delivery networks (CDNs) replicate and route the encoded audio files across distributed edge servers closer to listeners, reducing latency and keeping playback reliable. Rather than forcing every request to travel back to a single central server, edge nodes cache popular tracks geographically and serve them from whichever node responds fastest. This distributed architecture also absorbs traffic spikes—such as major album drops or viral hits—while maintaining high availability across regions with varying network quality <strong>(MusicAPI, 2025)</strong>.</li>
+                <li><strong>Buffering, Caching, and Playback:</strong> When a user presses play, the streaming app buffers incoming data for smooth start-up and continuous playback, caches tracks locally—supporting offline listening and faster repeat access—and decodes the audio stream into sound on the user's device <strong>(MusicAPI, 2025)</strong>.</li>
                 </ol>
                 <figure>
                     <img src="assets/media/diagram1.jpg" alt="Diagram of the song streaming workflow from recording and mastering through distribution, encoding, CDN, and playback">
-                    <figcaption>Diagram and overview of the song delivery workflow, from studio mastering and ISRC metadata to CDN distribution, buffering, caching, and playback.<strong>(MusicAPI, 2025)</strong></figcaption>
+                    <figcaption>Diagram and overview of the song delivery workflow, from studio mastering and ISRC metadata to CDN distribution, buffering, caching, and playback.</figcaption>
                 </figure>
             </section>
 
             <section>
               <h2>Recommendation Systems</h2>
                 <p>
-                    Recommendation systems personalize playlists and mixes by combining user listening behavior with track metadata and audio analysis. Collaborative filtering leverages patterns across listeners with overlapping habits to suggest tracks enjoyed by similar users, while content-based approaches examine numerical audio features and sonic attributes extracted from recordings.<strong>(Bangera et al., 2024)</strong>
+                    Recommendation systems personalize playlists and mixes by combining user listening behavior with track metadata and audio analysis. Collaborative filtering leverages patterns across listeners with overlapping habits to suggest tracks enjoyed by similar users, while content-based approaches examine numerical audio features and sonic attributes extracted from recordings <strong>(Bangera et al., 2024)</strong>.
                 </p>
                 <p>
-                    By scaling audio features, grouping similar tracks through clustering methods such as KMeans, building a mean vector from preferred songs, and ranking candidates using cosine distance, platforms can generate tailored mixes and help listeners explore deeper into an artist's catalog.<strong>(Bangera et al., 2024)</strong>
+                    By scaling audio features, grouping similar tracks through clustering methods such as KMeans, building a mean vector from preferred songs, and ranking candidates using cosine distance, platforms can generate tailored mixes and help listeners explore deeper into an artist's catalog <strong>(Bangera et al., 2024).</strong>
                 </p>
                <figure>
                 <img src="assets/media/recommendationsystems.jpg" alt="Visual representation of how the recommendation systems works">
-               <figcaption>The image represents the attachment of users to music. As a recommendation system is used based on their interests, a close relationship is stablished between the individual and their music tastes.<strong>(TechAhead, n.d.)</strong></figcaption>
+               <figcaption>The image represents the attachment of users to music. As a recommendation system is used based on their interests, a close relationship is stablished between the individual and their music tastes <strong>(TechAhead, n.d.)</strong>.</figcaption>
              </figure>
             </section>
 
