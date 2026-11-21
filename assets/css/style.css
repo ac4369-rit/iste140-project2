@@ -13,7 +13,7 @@ body {
   line-height: 1.65;
 }
 
-/* Header con estética suave en rosa pastel, título serif centrado y menú con "|" */
+
 header {
   background-color: #f4c6d7;
   padding: 1.6rem 1rem 1.3rem;
@@ -25,8 +25,8 @@ header h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 2.1rem;
   font-weight: bold;
-  color: #2c0e1a;
-  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.12);
+  color: #371120;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.18);
 }
 
 .tagline {
@@ -64,6 +64,9 @@ nav a:hover {
 nav a.active {
   background-color: #8f244d;
   color: #ffffff;
+}
+a{
+  color:#000000;
 }
 
 main {
@@ -103,16 +106,31 @@ p {
   text-align: justify;
 }
 
-dd {
-  margin-left: 0;
-  margin-bottom: 0.7rem;
-  text-align: justify;
+dl {
+  max-width: 800px;
 }
 
 dt {
-  font-weight: bold;
-  color: #7a2344;
-  margin-top: 0.8rem;
+  display: inline-block;
+  background-color: #802b50; 
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.3px;
+  padding: 6px 14px;
+  border-radius: 8px 8px 0 0; 
+  margin-top: 18px;
+}
+
+dd {
+  margin: 0;
+  background-color: #fdf6f9; 
+  color: #2b2b2b;
+  padding: 14px 18px;
+  border-left: 4px solid #6b1d3f;
+  border-radius: 0 8px 8px 8px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.18);
+  line-height: 1.5;
 }
 
 code {
@@ -189,7 +207,7 @@ figcaption {
   width: 400px;
   height: 250px;
 }
-/* Tablas con scroll interno en pantallas pequeñas */
+
 .table-scroll {
   width: 100%;
   overflow-x: auto;
