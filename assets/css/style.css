@@ -149,36 +149,6 @@ code {
   margin: 1rem 0;
 }
 
-button,
-.btn {
-  display: inline-block;
-  margin: 0.5rem auto;
-  background-color: #8f244d;
-  color: #ffffff;
-  border: none;
-  padding: 0.55rem 1.1rem;
-  border-radius: 999px;
-  cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  text-decoration: none;
-  text-align: center;
-}
-
-button:hover,
-.btn:hover {
-  background-color: #681736;
-}
-
-.btn-accent {
-  background-color: #c94a7c;
-  color: #ffffff;
-}
-
-.btn-accent:hover {
-  background-color: #a63562;
-}
-
 figure {
   margin: 1.25rem auto;
   text-align: center;
