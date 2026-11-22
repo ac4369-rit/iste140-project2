@@ -140,15 +140,6 @@ code {
   border-radius: 4px;
 }
 
-.btn-group,
-.button-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.6rem;
-  margin: 1rem 0;
-}
-
 figure {
   margin: 1.25rem auto;
   text-align: center;
@@ -240,6 +231,10 @@ footer p {
   flex-shrink: 0;         
   margin-top: 2px;
 }
+.ref{
+  text-align:left;
+  overflow-wrap: break-word;
+}
 
 @media (max-width: 600px) {
   header h1 {
@@ -253,6 +248,16 @@ footer p {
 
   section {
     padding: 1rem;
+    font-size: 0.8rem;
+  }
+  figure img,
+  main > section > img {
+  display: block;
+  max-width: 100%;
+  width: 400px;
+  height: 200px;
+  margin: 0.75rem auto 0;
+  border-radius: 6px;
   }
 }
 

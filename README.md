@@ -1,7 +1,6 @@
 Name: Alba Cervantes
 Project: B version-> project2
 Gitrep: https://github.com/ac4369-rit/iste140-project2
-Solace:
 Extra:
 -More pictures than required in index.html (2 more)
 -More terms tha required in glossary.html (2 more)
@@ -27,7 +26,7 @@ https://drive.google.com/file/d/1uVj3RC0OYDOH-Sx8ToALIlwwrJm0yqsy/view?usp=shari
 https://drive.google.com/file/d/1udiF2VogqSk2Gts95BDkbvQGH3nJoZUz/view?usp=sharing,
 https://drive.google.com/file/d/1vqQBOMt7-Sas4X9iyfOyjaFa20ii59JL/view?usp=sharing
 
-Walkthrough:
+
 
 
 
