@@ -1,6 +1,14 @@
 Name: Alba Cervantes
-Project: B version-> project2
+Project: B version-> project2 (Music streaming)
 Gitrep: https://github.com/ac4369-rit/iste140-project2
+Description: The site's objective is to provide the individual with information about music streaming.
+There are 6 pages:
+-Index.html gives a view on the evolution of music and the start of music streaming services.
+-Journey.html shows the journey of a song since it is recorded until it is released.
+-Platforms.html shows a detailed comparison and analysis on music streaming services.
+-Money.html shows how money is collected, making some calculations to obtain how many streams are needed for a singer to obtain croatian`s minimum salary.
+-Glossary.html acts as a dictionary.
+-References.html states all the used references.
 Extra:
 -More pictures than required in index.html (2 more)
 -More terms tha required in glossary.html (2 more)
